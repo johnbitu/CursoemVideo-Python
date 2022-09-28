@@ -1,0 +1,7 @@
+frase = input('Digite uma frase:')
+count = (frase.lower().count('a'))
+print(f'essa frase contem {count} a!')
+find = (frase.lower().find('a'))
+print(f'O primeiro a desta frase está na posição {find}')
+find2 = (frase.lower().rfind('a'))
+print(f'O segundo A desta frase está na posição {find2}')

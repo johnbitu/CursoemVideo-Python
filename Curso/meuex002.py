@@ -1,0 +1,5 @@
+n1 = int(input('digite um valor:'))
+n2 = int(input('digite outro valor:'))
+n3 = int(input('digite mais um valor:'))
+s = n1 * (n3 + n2)
+print(s)
